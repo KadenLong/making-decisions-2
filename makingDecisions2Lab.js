@@ -1,5 +1,5 @@
 // For problems 1-2 use the following lines of code:
-var arr = [10,20,30,40,50,60]
+var arr = [10, 20, 30, 40, 50, 60];
 
 ////////// PROBLEM 1 //////////
 /*
@@ -7,7 +7,7 @@ var arr = [10,20,30,40,50,60]
 */
 
 //Code Here
-let firstName = arr[0]; 
+let firstName = arr[0];
 
 ////////// PROBLEM 2 //////////
 /*
@@ -20,7 +20,7 @@ console.log(lastItemRemoved);
 ////////// PROBLEM 3 //////////
 
 // Do not edit the code below.
-var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
+var family = ["Tyler", "Jordan", "Ryan", "Alice", "Ireland"];
 // Do not edit the code above.
 
 /*
@@ -28,16 +28,15 @@ var family = ['Tyler', 'Jordan', 'Ryan', 'Alice', 'Ireland'];
 */
 
 //Code Here
-for (let i = 0; i < family.length; i++){
+for (let i = 0; i < family.length; i++) {
   console.log(family[i]);
 }
-
 
 ////////// PROBLEM 4 //////////
 
 // Do not edit the code below.
-var nums = [1,2,3,6,22,98,45,23,22,12];
-let evensArr = []
+var nums = [1, 2, 3, 6, 22, 98, 45, 23, 22, 12];
+let evensArr = [];
 // Do not edit the code above.
 
 /*
@@ -45,8 +44,8 @@ let evensArr = []
 */
 
 //Code Here
-for (let i = 0; i < nums.length; i++){
-  if (nums[i]%2 === 0){
+for (let i = 0; i < nums.length; i++) {
+  if (nums[i] % 2 === 0) {
     evensArr.push(nums[i]);
   }
 }
@@ -56,7 +55,7 @@ console.log(evensArr);
 ////////// PROBLEM 5 //////////
 
 // Do not edit the code below.
-var score = 74
+var score = 74;
 // Do not edit the code above.
 
 /*
@@ -64,16 +63,16 @@ var score = 74
 */
 
 //Code Here
-if (score >= 90){
-  console.log('A');
-} else if (score < 90 && score >= 80){
-  console.log('B');
-} else if (score < 80 && score >= 70){
-  console.log('C');
-} else if (score < 70 && score >= 60){
-  console.log('D');
-} else if (score < 60){
-  console.log('F');
+if (score >= 90) {
+  console.log("A");
+} else if (score < 90 && score >= 80) {
+  console.log("B");
+} else if (score < 80 && score >= 70) {
+  console.log("C");
+} else if (score < 70 && score >= 60) {
+  console.log("D");
+} else if (score < 60) {
+  console.log("F");
 }
 
 ////////// Intermediate Problems //////////
@@ -81,7 +80,7 @@ if (score >= 90){
 ////////// PROBLEM 6 //////////
 
 // Do not edit the code below.
-var myFavoriteNumbers = [4,8,12,16,20,24];
+var myFavoriteNumbers = [4, 8, 12, 16, 20, 24];
 // Do not edit the code above.
 
 /*
@@ -94,11 +93,11 @@ console.log(someNum);
 
 ////////// PROBLEM 7 //////////
 
-// Subscripting (accessing values using their index) an array can fail. What happens if you subscript to the 7th element, but there are not 7 elements in the array? Let's write some code to check for that. 
+// Subscripting (accessing values using their index) an array can fail. What happens if you subscript to the 7th element, but there are not 7 elements in the array? Let's write some code to check for that.
 // Use an if statement to check the length of the 'myFavoriteNumbers' array. If it's less than 7, log 'There are not enough elements in this array' to the console. If the length is more than 7, reassign the value of 'someNum' to the value of the 7th element in the array. (Hint: how can you make sure that your code works for exactly 7 elements? What index do you use to get the 7th element?)
 
 //Code Here
-if (myFavoriteNumbers.length >= 7){
+if (myFavoriteNumbers.length >= 7) {
   someNum = myFavoriteNumbers[7];
 } else {
   console.log(`There are not enough elements in this array.`);
@@ -107,21 +106,21 @@ if (myFavoriteNumbers.length >= 7){
 ////////// PROBLEM 8 //////////
 
 // Do not edit the code below.
-var listOfNumbers = [1,2,3,4,5,6,7,8,9,10,11,12];
+var listOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 // Do not edit the code above.
 
 // Use a for-loop to iterate through 'listOfNumbers', checking to see if each number is divisible by 3. If it is, console.log '{number} is divisible by 3.'
 
 //Code Here
-for (let i = 0; i < listOfNumbers.length; i++){
-  if (listOfNumbers[i] % 3 ===0){
+for (let i = 0; i < listOfNumbers.length; i++) {
+  if (listOfNumbers[i] % 3 === 0) {
     console.log(`${listOfNumbers[i]} is divisible by 3.`);
   }
 }
 
 ////////// PROBLEM 9 //////////
 // Do not edit the code below.
-var letters = ['A', 'B', 'C', 'D', 'E'];
+var letters = ["A", "B", "C", "D", "E"];
 // Do not edit the code above.
 
 /*
@@ -129,7 +128,7 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 */
 
 //Code Here
-for (let i = 4; i >= 0; i--){
+for (let i = 4; i >= 0; i--) {
   console.log(letters[i]);
 }
 
@@ -139,7 +138,7 @@ for (let i = 4; i >= 0; i--){
 // Switch statements can be excellent alternatives to if blocks. Look up switch statements (I recommend W3 Schools) and try to implement one for the following.
 
 // Do not edit the code below.
-let letterGrade = 'B'
+let letterGrade = "B";
 // Do not edit the code above.
 
 /* Use a switch statement on 'letterGrade' and console.log the appropriate response.
@@ -153,27 +152,26 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
-switch (letterGrade){
-  case 'A':
+switch (letterGrade) {
+  case "A":
     console.log(`The student is doing excellently.`);
     break;
-  case 'B':
+  case "B":
     console.log(`The student is doing well.`);
     break;
-  case 'C':
-    console.log(`The student is doing alright.`)
+  case "C":
+    console.log(`The student is doing alright.`);
     break;
-  case 'D':
-    console.log(`The student is not doing very well.`)
+  case "D":
+    console.log(`The student is not doing very well.`);
     break;
-  case 'F':
-    console.log(`The student is failing.`)
+  case "F":
+    console.log(`The student is failing.`);
     break;
   default:
-    console.log(`Not an eligible grade.`)
+    console.log(`Not an eligible grade.`);
     break;
 }
-
 
 ////////// PROBLEM 11 //////////
 /* The famous FizzBuzz, Devmountain style!
@@ -201,15 +199,14 @@ switch (letterGrade){
 
 //Code Here
 
-for (i = 1; i <= 100; i++){
-  if (i%3 === 0 && i%5 === 0){
+for (i = 1; i <= 100; i++) {
+  if (i % 3 === 0 && i % 5 === 0) {
     console.log(`Devmountain`);
-  } else if(i%3 === 0){
+  } else if (i % 3 === 0) {
     console.log(`Dev`);
-  } else if (i%5 === 0){
+  } else if (i % 5 === 0) {
     console.log(`mountain`);
   } else {
     console.log(i);
   }
-  
 }
